@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: macedonia-explorer-db
+    environment:
+      POSTGRES_DB: macedonia_explorer
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: macedonia-explorer-backend
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD}
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/macedonia_explorer
+      SPRING_DATASOURCE_USERNAME: postgres
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./frontend
+    container_name: macedonia-explorer-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
