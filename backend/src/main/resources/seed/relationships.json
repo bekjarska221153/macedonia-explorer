@@ -1,0 +1,323 @@
+[
+  {
+    "source": "Skopje",
+    "target": "Skopje Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Matka Canyon",
+    "target": "Skopje Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Southwestern Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Veles",
+    "target": "Vardar Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Kratovo",
+    "target": "Eastern Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Bitola",
+    "target": "Southwestern Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Prilep",
+    "target": "Pelagonia Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Prilep",
+    "target": "Marko's Towers",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Prilep",
+    "target": "Treskavec Monastery",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Prilep",
+    "target": "Prilep Old Bazaar",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Prilep",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Prilep",
+    "target": "Old Architecture",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Kruševo",
+    "target": "Pelagonia Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Prespa",
+    "target": "Southwestern Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Berovo",
+    "target": "Eastern Region",
+    "type": "LOCATED_IN"
+  },
+  {
+    "source": "Tikveš",
+    "target": "Vardar Region",
+    "type": "LOCATED_IN"
+  },
+
+  {
+    "source": "Skopje",
+    "target": "Old Bazaar",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Skopje",
+    "target": "Mother Teresa Memorial House",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Skopje",
+    "target": "Skopje Fortress",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Skopje",
+    "target": "Macedonia Square",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Skopje",
+    "target": "Millennium Cross",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Skopje",
+    "target": "Kozjak Lake",
+    "type": "HAS_ATTRACTION"
+  },
+
+  {
+    "source": "Matka Canyon",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Matka Canyon",
+    "target": "Boat Ride",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Ohrid",
+    "target": "Lake Ohrid",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Church of Saint John at Kaneo",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Ancient Theatre of Lichnidos",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Church of Saint Sophia",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Plaošnik",
+    "type": "HAS_ATTRACTION"
+  },
+
+  {
+    "source": "Ohrid",
+    "target": "Swimming",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Paragliding",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Ohrid",
+    "target": "Old Architecture",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Veles",
+    "target": "Ossuary Monument",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Veles",
+    "target": "Clock Tower of Veles",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Veles",
+    "target": "Lake Mladost",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Veles",
+    "target": "Church of Saint Panteleon",
+    "type": "HAS_ATTRACTION"
+  },
+
+  {
+    "source": "Kratovo",
+    "target": "Radin Bridge",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Kratovo",
+    "target": "Kratovo Clock Tower",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Kratovo",
+    "target": "Old Architecture",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Bitola",
+    "target": "Širok Sokak",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Bitola",
+    "target": "Heraclea Lyncestis",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Bitola",
+    "target": "Pelister National Park",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Bitola",
+    "target": "Bitola Museum",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Bitola",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Bitola",
+    "target": "Skiing",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Bitola",
+    "target": "Old Architecture",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Kruševo",
+    "target": "Paragliding",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Kruševo",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Kruševo",
+    "target": "Skiing",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Prespa",
+    "target": "Prespa Lake",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Prespa",
+    "target": "Golem Grad Island",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Prespa",
+    "target": "Swimming",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Berovo",
+    "target": "Berovo Lake",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Berovo",
+    "target": "Monastery of Saint Archangel Michael",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Berovo",
+    "target": "Hiking",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Berovo",
+    "target": "Horse Riding",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Berovo",
+    "target": "Cycling",
+    "type": "OFFERS_ACTIVITY"
+  },
+
+  {
+    "source": "Tikveš",
+    "target": "Lake Tikveš",
+    "type": "HAS_ATTRACTION"
+  },
+  {
+    "source": "Tikveš",
+    "target": "Wine Tasting",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Veles",
+    "target": "Old Architecture",
+    "type": "OFFERS_ACTIVITY"
+  },
+  {
+    "source": "Kruševo",
+    "target": "Makedonium",
+    "type": "HAS_ATTRACTION"
+  }
+]
