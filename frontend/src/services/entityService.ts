@@ -1,6 +1,6 @@
 import type { GraphEntity } from '../models/GraphEntity';
 
-const API_URL = 'http://localhost:8080/api/entities';
+const API_URL = '/api/entities';
 
 export async function getEntities(
   search?: string,

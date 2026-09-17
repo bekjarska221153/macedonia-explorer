@@ -7,7 +7,7 @@ export interface EntityRelationship {
   type: string;
 }
 
-const API_URL = 'http://localhost:8080/api/relationships';
+const API_URL = '/api/relationships';
 
 export async function getRelationships(): Promise<EntityRelationship[]> {
   const response = await fetch(API_URL);
