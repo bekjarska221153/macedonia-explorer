@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: macedonia-explorer-frontend
+  namespace: macedonia-explorer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: macedonia-explorer-frontend
+  template:
+    metadata:
+      labels:
+        app: macedonia-explorer-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: evab221153/macedonia-explorer-frontend:latest
+          ports:
+            - containerPort: 5173

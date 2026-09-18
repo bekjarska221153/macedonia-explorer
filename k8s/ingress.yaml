@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: macedonia-explorer-ingress
+  namespace: macedonia-explorer
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: macedonia-explorer.local
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: macedonia-explorer-backend
+                port:
+                  number: 8080
+
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: macedonia-explorer-frontend
+                port:
+                  number: 5173

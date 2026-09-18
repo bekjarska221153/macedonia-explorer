@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: macedonia-explorer-db-config
+  namespace: macedonia-explorer
+data:
+  database-name: macedonia_explorer
+  database-port: "5432"

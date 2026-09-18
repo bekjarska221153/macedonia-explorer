@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: macedonia-explorer-backend
+  namespace: macedonia-explorer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: macedonia-explorer-backend
+  template:
+    metadata:
+      labels:
+        app: macedonia-explorer-backend
+    spec:
+      containers:
+        - name: backend
+          image: evab221153/macedonia-explorer-backend:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: macedonia-explorer-db-secret
+                  key: password
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://macedonia-explorer-db:5432/macedonia_explorer
+            - name: SPRING_DATASOURCE_USERNAME
+              value: postgres
